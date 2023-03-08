@@ -31,12 +31,12 @@ function multiplicar() {
   // evite mexer no código acima!
 
 
-
+const resultado = numero1 * numero2;
 
 
   /* use as constantes numero 1 e numero 2 e realize a soma entre elas.
    Em seguida, ao invés de mostrar o numero 5, mostre o resultado da operação */
-  document.getElementById("resultadoMult").innerHTML = 5;
+  document.getElementById("resultadoMult").innerHTML = resultado;
 }
 
 function dividir() {
