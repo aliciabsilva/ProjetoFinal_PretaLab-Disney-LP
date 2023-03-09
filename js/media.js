@@ -36,7 +36,7 @@ if(media === 0) {
 } else if(media === 10) {
   let mensagem = "Hoje é seu aniversário? Porque você ta de parabéns! 10 de média"
 } else{
-  let mensagem = "Insira os número de média";
+  let mensagem = "Insira as notas acima!";
 }
 
 
