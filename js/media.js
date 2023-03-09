@@ -24,19 +24,19 @@ function calcularMedia() {
 const media = (nota1 + nota2 + nota3 + nota4) / 4;
 
 if(media === 0) {
-  mensagem = "Infelizmente você zerou a prova :(";
+  let mensagem = "Infelizmente você zerou a prova :(";
 } else if(media >= 0.1 && media < 3){
-  mensagem = `Caramba, deu ruim, você obteve media ${media}! Estude mais e tente novamente!`;
+  let mensagem = `Caramba, deu ruim, você obteve media ${media}! Estude mais e tente novamente!`;
 } else if(media >= 3.1 && media < 5.9) {
-  mensagem = `Você obteve media ${media}! Falta pouco para a média.`;
+  let mensagem = `Você obteve media ${media}! Falta pouco para a média.`;
 } else if(media >= 6 && media <7) {
-mensagem = `Você está na média com ${media}`;
+  let mensagem = `Você está na média com ${media}`;
 } else if(media >= 7.1 && media < 9.9) {
-  mensagem = `Notão! Sua média é ${media}!`;
+  let mensagem = `Notão! Sua média é ${media}!`;
 } else if(media === 10) {
-  mensagem = "Hoje é seu aniversário? Porque você ta de parabéns! 10 de média"
+  let mensagem = "Hoje é seu aniversário? Porque você ta de parabéns! 10 de média"
 } else{
-  mensagem = "Insira os número de média";
+  let mensagem = "Insira os número de média";
 }
 
 
