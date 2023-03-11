@@ -36,9 +36,7 @@ if(media === 0) {
 } else if(media === 10) {
   mensagem = "Hoje é seu aniversário? Porque você ta de parabéns! 10 de média" 
 } else if(media > 10) {
-  mensagem = "Insira notas apenas de 0 a 10"
-}else{
-  mensagem = "Insira as quatro notas acima (de 0 a 10)!";
+  mensagem = "Insira as quatro notas apenas de 0 a 10"
 }
 
 
