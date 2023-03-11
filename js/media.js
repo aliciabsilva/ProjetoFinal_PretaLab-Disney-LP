@@ -32,9 +32,9 @@ if(media === 0) {
 } else if(media >= 6 && media <7) {
   mensagem = `Você está na média com ${media}`;
 } else if(media >= 7.1 && media < 9.9) {
-  mensagem = `Notão! Sua média é ${media}!` 🤩;
+  mensagem = `Notão! Sua média é ${media}!`;
 } else if(media === 10) {
-  mensagem = "Hoje é seu aniversário? Porque você ta de parabéns! 10 de média 🥳"
+  mensagem = "Hoje é seu aniversário? Porque você ta de parabéns! 10 de média"
 } else{
   mensagem = "Insira as quatro notas acima (de 0 a 10)!";
 }
